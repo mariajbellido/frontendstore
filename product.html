@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Front End Store</title>
+	<link rel="stylesheet" href="./css/normalize.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="./img/logo.png" alt="Frontend Store Logo">
+    </a>
+  </header>
+
+  <nav class="navigation">
+    <a class="navigation__link navigation__link--active" href="index.html">Shop</a>
+    <a class="navigation__link" href="aboutus.html">About us</a>
+  </nav>
+
+  <main class="container">
+    <h1>React JS </h1>
+
+    <div class="tshirt">
+      <img class="tshirt__image" src="./img/3.jpg" alt="React JS t-shirt">
+
+      <div class="tshirt-content">
+
+          <p>
+            A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.  
+          </p>
+
+          <form class="form">
+
+            <select class="form__field" name="size" id="size">
+              <option disabled selected> -- Choose your size -- </option>
+              <option>Small (S)</option>
+              <option>Medium (M)</option>
+              <option>Large (L)</option>
+              <option>Extra Large (XL)</option>
+            </select>
+
+            <input class="form__field" type="number" name="quantity" id="quantity" min="1">
+
+            <input class="form__submit" type="submit" value="Add to cart">
+          </form>
+
+
+
+      </div>
+
+
+    </div>
+  </main>
+
+
+  
+
+
+
+
+  <footer class="footer">
+    <p class="footer__text">Front End Store - All rights reserved 2099</p>
+  </footer>
+
+	<script src="script.js">
+
+	</script>
+</body>
+
+</html>
